@@ -13,7 +13,7 @@ public class Arithmetic {
 					 public void main(String[] args) {
 					
 				Adder d=new Adder();
-				System.out.println("Result="+ d.add(5, 10));
+				System.out.println("Result="+ d.add(6, 8));
 					}
 
 				}
