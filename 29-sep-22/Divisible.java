@@ -4,23 +4,24 @@ package labRec29;
 public class  Divisible{
 	
     	public static void main(String args[]) {
-		System.out.println("\nDivided by 3: ");		
+		System.out.println("\nDivisible by 3  ");		
 		for (int i=1; i<100; i++) {
 			if (i%3==0) 
 			System.out.print(i +", ");			
 		}			
 				
-		System.out.println("\n Divided by 5: ");
+		System.out.println("\n Divisible by 5  ");
 		for (int i=1; i<100; i++) {
-			if (i%5==0) System.out.print(i +", ");			
+			if (i%5==0) 
+			System.out.print(i +", ");			
 		}
 				
-		System.out.println("\n Divided by both: ");			
+		System.out.println("\n Divisible by both  ");			
 		for (int i=1; i<100; i++) {
 			if (i%3==0 && i%5==0) 
-				System.out.print(i +", ");			
+		 System.out.print(i +", ");			
 		}
-		System.out.print("  ");
+		   System.out.print("  ");
   }
 }
 
